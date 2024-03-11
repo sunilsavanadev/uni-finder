@@ -1,57 +1,53 @@
-.pannel-container{
+.container{
     display: flex;
+    gap: 40px;
 }
-.universities{
-    width: 400px;
-    height: 400px;
+.university-box{
+    height: 150px;
+    width: 700px;
+    background-color: red;
+}
+.section-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+.section-buttons button{
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    font-family: roboto, sans-serif;
+    border: 0;
+    cursor: pointer;
+}
+.universityBox{
+    height: 100px;
+    width: 700px;
+    background-color: blueviolet;
 }
 .form{
     display: flex;
     flex-direction: column;
+    font-size: 16px;
+    font-family: roboto, sans-serif;
+    gap: 10px;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.form-input input{
+    height: 30px;
+    width: 250px;
+    outline: 0;
+}
+.form-container{
+    display: flex;
     gap: 20px;
-    padding: 20px;
-}
-.form-content{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-.form-content input{
-    width: 300px;
-    height: 30px;
-    border: 1px solid black;
-    outline: none;
-}
-.form-content-exams{
-    display: flex;
-    gap: 5px;
-}
-.exams{
-    display: flex;
-    gap: 5px;
-    align-items: center;
-
-}
-.exams input{
-    height: 30px;
-    width: 50px;
-    outline: none;
-}
-.about{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-.about textarea{
-    height: 80px;
-    width: 300px;
-    outline: none;
-    resize: none;
-}
-.submit{
-    height: 40px;
-    width: 100px;
-    background-color: rgb(178, 228, 178);
-    border: 0;
-    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
 }
